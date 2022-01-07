@@ -1,0 +1,58 @@
+body {
+  background-image: url("image 2.jpg");
+}
+table {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 310px;
+  margin: 50px auto;
+  border: 2px solid black;
+  background-image: url("image 1.jpg");
+  border-radius: 10px;
+  padding: 0px 20px 20px;
+}
+.heading {
+  padding: 5px 0px 5px 0px;
+  color: blue;
+  font-size: 130%;
+  font-weight: bold;
+
+  text-align: left;
+}
+#input,
+#answer {
+  width: 269px;
+  height: 50px;
+  font-size: 210%;
+  text-align: right;
+  border: none;
+}
+#input {
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 2px 2px 2px black;
+  color: #1e1e1e;
+}
+#answer {
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 2px 2px 2px black;
+}
+input[type="button"] {
+  height: 60px;
+  width: 60px;
+  color: #fff;
+  font-size: 130%;
+  font-weight: bold;
+  background: #0066cc;
+  margin: 1px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 2px 2px 4px 2px gray;
+}
+input[type="button"]:hover {
+  background: #1a8cff;
+  color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.opera {
+  background: #6666ff;
+}
